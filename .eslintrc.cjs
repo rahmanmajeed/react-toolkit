@@ -30,10 +30,8 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
   },
-  plugins: [
-    '@typescript-eslint',
-    'react',
-  ],
+  plugins: ['@typescript-eslint', 'react'],
+  ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts'],
   rules: {
     'react/react-in-jsx-scope': 0,
   },
