@@ -1,8 +1,10 @@
+import Sidebar from './components/sidebar';
+
 function App() {
   return (
     <div id="app">
       {/** sidebar start */}
-      <aside className="sidebar">sidebar</aside>
+      <Sidebar />
       {/** sidebar end */}
       {/** wrapper starts */}
       <div className="wrapper">
@@ -13,7 +15,9 @@ function App() {
           <main>main content</main>
           {/** Main Content ends */}
           {/** Footer Starts */}
-          <footer className="footer"><div>footer</div></footer>
+          <footer className="footer">
+            <div>footer</div>
+          </footer>
           {/** Footer Ends */}
         </div>
         {/** Page Content ends */}
