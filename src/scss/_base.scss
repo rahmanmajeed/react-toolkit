@@ -9,7 +9,7 @@
 
 html {
   // this is define what 1rem is
-  font-size: 82.5%;
+  font-size: 100%;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     @apply flex flex-col flex-1 transition-all duration-300 ease-in-out lg:ml-72;
     
     &.expanded {
-      @apply bg-amber-300 lg:ml-20;
+      @apply lg:ml-20;
     }
 
     .header{
