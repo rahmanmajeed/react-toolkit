@@ -9,7 +9,7 @@ export default {
     extend: {},
     colors: {
       ...colors,
-      primary: colors.violet,
+      primary: colors.indigo, // 2c6fbb
     },
   },
   plugins: [],
